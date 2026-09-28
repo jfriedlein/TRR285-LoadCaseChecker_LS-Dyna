@@ -1,6 +1,6 @@
 *KEYWORD
 *MAT_TABULATED_JOHNSON_COOK_TITLE
-HCT590X (ton, MPa, mm)
+HCT590X (ton, MPa, mm, N, s)
 $#     mid        ro         e        pr        cp        tr      beta    numint
          17.85000E-9  205800.0       0.3       0.0       0.0       1.0       1.0
 $#   tabk1     tabkt       lcf       lcg       lch       lci   
