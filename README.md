@@ -29,17 +29,19 @@ This is a set of one-element tests that are loaded by various loading types (ten
         ```
         *INCLUDE_TRANSFORM
         ./02_OET/02_OET_UniaxialTensionX.inc
-        ... ```
+        ...
+        ```
     * The following test is inactive:
         ```
         *COMMENT  *INCLUDE_TRANSFORM
         ./02_OET/02_OET_UniaxialTensionY.inc
+        ...
         ```
 * Run the LS-Dyna keyword file '1_main.k' using your LS-Dyna executable, e.g. by executing './0_run.sh' in the terminal.
 
 
 ## Settings
-* The unit system for the exemplarily material card ' ' is (ton, MPa, mm, N, s).
+* The unit system for the exemplary material card '5_MAT224-example.inc' is (ton, MPa, mm, N, s).
 * For explicit time integration you might want to use mass scaling to speed up the simulation. E.g. increase the material density 'ro' from 7.85e-9 to 7.85e-6.
 
 ## Acknowledgements
