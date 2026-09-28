@@ -20,7 +20,6 @@ $
 *INCLUDE
 03_control/3_Define_Transformations.inc
 $
-$ Choose 
 *INCLUDE
 03_control/3_control-&tIntegr^.inc
 $
