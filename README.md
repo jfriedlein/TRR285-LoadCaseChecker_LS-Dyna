@@ -4,6 +4,8 @@ One-element tests experiencing different load cases to check material models and
 ## What is this all about?
 This is a set of one-element tests that are loaded by various loading types (tension, coompression, shear, ...). It allows to test the response of material models and element formulations under different loading conditions. Thereby, your material or element can be verified (correct shear response, objectivity, isotropy/anisotropy, robustness, convergence, ...). The setup is modular, such that you can turn on/off certain element tests or add your own tests.
 
+https://github.com/user-attachments/assets/7b735615-907c-49b3-b2ae-d2f7b209febc
+
 ## Getting started
 * Download the entire repository and unpack on your PC
 * Open the '0_run.asc' file and modify the path and name of your LS-Dyna executable ('path2lsdynaExe', 'exeName'). For Windows you can create a similar batch script.
